@@ -1,0 +1,12 @@
+{
+  "operationId": "moetr-5a68b42b-76c931e3-61997-actor4-w04-run1",
+  "hash": "0x094230874cbc8ef078c8c20cb8ce9a68ea6209cb2f546f33d334e4ca7db6cf2f",
+  "status": "EXTERNALLY_RECONCILED",
+  "finality": "FINALIZED",
+  "semanticResult": "FINISHED_WITH_RETURN",
+  "resolutionStatus": "NOT_YET_EFFECTIVE",
+  "oracle": false,
+  "broadcastCount": 1,
+  "chainId": 61997,
+  "scenario": "W04"
+}

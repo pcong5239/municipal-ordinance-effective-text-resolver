@@ -1,0 +1,15 @@
+{
+  "lineage": "NYC Local Law 55 of 2024 amended by Local Law 128 of 2024",
+  "sources": [
+    "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=62FCF30F-3D9E-4148-B1ED-4469F3985796&ID=6558062&Options=ID%7CText%7C&Search=",
+    "https://www.nyc.gov/assets/buildings/newsletters/DOB_BN_122225.html"
+  ],
+  "status": "CANDIDATE_ONLY_NOT_SEALED",
+  "verification_required": [
+    "Exact runtime HTTP response/body access",
+    "No redirect, challenge page or source truncation",
+    "Current official lineage identity, enactment, Section 26 and Section 29 parity",
+    "Canonical manifest of actual full response bytes",
+    "Independent validator source retrieval"
+  ]
+}

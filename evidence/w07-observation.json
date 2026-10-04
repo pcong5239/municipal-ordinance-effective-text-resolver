@@ -1,0 +1,14 @@
+{
+  "operationId": "moetr-5a68b42b-76c931e3-61997-actor4-w07-run1",
+  "hash": "0x3c38ecf929fe735008ef7643f2c1d3fa2712a502879c0f961ebc6b62d6379609",
+  "status": "EXTERNALLY_RECONCILED",
+  "finality": "FINALIZED",
+  "semanticResult": "FINISHED_WITH_RETURN",
+  "postState": "SUPERSEDED superseded_by nyc-ll55-report-deadline-v2",
+  "broadcastCount": 1,
+  "chainId": 61997,
+  "scenario": "W07",
+  "consensus": "accepted",
+  "sourceParity": true,
+  "independentEvidence": "tx-0x3c38ecf929fe735008ef7643f2c1d3fa2712a502879c0f961ebc6b62d6379609-reconciliation.json"
+}

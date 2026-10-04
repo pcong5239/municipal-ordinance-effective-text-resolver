@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "network": "studio-dev",
+  "chainId": 61997,
+  "sourceSha256": "5A68B42B63044EDF9EB4A3960A36DE9E134C78AD3C255B84DB97B4871668A03D",
+  "deploy": {
+    "executionBudgetPerRound": "94625100000000",
+    "leaderTimeunitsAllocation": "100",
+    "validatorTimeunitsAllocation": "200",
+    "rotations": ["3"]
+  },
+  "deployMeasurement": {
+    "hash": "0xd3d88f87af65f300604410615edea7ae096d53354bdb906b63d1932991f093e4",
+    "finality": "FINALIZED",
+    "executionConsumed": "78782500000000",
+    "storageFeeUsed": "154500000000",
+    "leaderTimeunitsUsed": "1",
+    "validatorTimeunitsUsed": "4"
+  },
+  "methods": {
+    "create_deadline_lineage": {
+      "executionBudgetPerRound": "94625100000000",
+      "leaderTimeunitsAllocation": "100",
+      "validatorTimeunitsAllocation": "200",
+      "rotations": ["3"]
+    }
+  },
+  "createMeasurement": {
+    "type": "official targeted read-only Studio simulation",
+    "executionFeeConsumed": "78630250000000",
+    "executionFeeReportTotal": "78628000000000",
+    "recommendedExecutionBudgetPerRound": "188709900000000",
+    "note": "Profile/fees use installed CLI estimated distribution, not hand-calculated amounts"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "operationId": "moetr-5a68b42b-76c931e3-61997-actor4-d01-run1",
+  "transactionHash": "0xd3d88f87af65f300604410615edea7ae096d53354bdb906b63d1932991f093e4",
+  "status": "EXTERNALLY_RECONCILED",
+  "finality": "FINALIZED",
+  "semanticResult": "FINISHED_WITH_RETURN",
+  "contractAddress": "0x1eBE1f41ff016b74af41b94F5E07B3B3b29A4DEF",
+  "sourceParity": true,
+  "authoritativeLineageState": "EMPTY",
+  "independentEvidence": "deploy-reconciliation.json",
+  "revision": "MOETR-61997-5A68B42B-76C931E3",
+  "chainId": 61997,
+  "actor": "actor4",
+  "broadcastCount": 1,
+  "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xd3d88f87af65f300604410615edea7ae096d53354bdb906b63d1932991f093e4"
+}

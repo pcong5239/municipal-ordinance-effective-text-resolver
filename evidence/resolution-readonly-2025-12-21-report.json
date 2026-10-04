@@ -1,0 +1,15 @@
+{
+  "network": "studio-dev",
+  "chainId": 61997,
+  "actor": "actor4",
+  "queryDay": "2025-12-21",
+  "broadcast": false,
+  "constructorModifiedForProbe": true,
+  "execution_result": "SUCCESS",
+  "stdout": "{\"amendment_effective_on_day\":true,\"amendment_enacted\":true,\"controlling_deadline\":\"2026-06-30\",\"evidence_state\":\"VERIFIED\",\"identity_match\":true,\"query_day\":\"2025-12-21\",\"resolution_status\":\"RESOLVED\",\"revision_id\":1,\"target_field_match\":true}\n",
+  "stderr": "",
+  "error_description": null,
+  "eq_outputs": {
+    "0": "AOQKeyJhbWVuZG1lbnRfZWZmZWN0aXZlX29uX2RheSI6dHJ1ZSwiYW1lbmRtZW50X2VuYWN0ZWQiOnRydWUsImNvbnRyb2xsaW5nX2RlYWRsaW5lIjoiMjAyNi0wNi0zMCIsImV2aWRlbmNlX3N0YXRlIjoiVkVSSUZJRUQiLCJpZGVudGl0eV9tYXRjaCI6dHJ1ZSwidGFyZ2V0X2ZpZWxkX21hdGNoIjp0cnVlfQ=="
+  }
+}

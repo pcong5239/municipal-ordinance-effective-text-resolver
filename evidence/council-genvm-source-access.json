@@ -1,0 +1,11 @@
+{
+  "network": "studio-dev",
+  "chainId": 61997,
+  "actor": "actor4",
+  "url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=62FCF30F-3D9E-4148-B1ED-4469F3985796&ID=6558062&Options=ID%7CText%7C&Search=",
+  "status": 200,
+  "bytes": 1698829,
+  "sha256": "4719182996847c00653db6d2856cef5c73c48a0a6b0b9283493a85d3d7202503",
+  "method": "sim_call",
+  "broadcast": false
+}

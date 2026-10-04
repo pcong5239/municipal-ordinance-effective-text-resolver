@@ -1,0 +1,26 @@
+{
+  "phase": "revision4",
+  "network": "studio-dev",
+  "chainId": 61997,
+  "address": "0x1eBE1f41ff016b74af41b94F5E07B3B3b29A4DEF",
+  "blockTag": "latest-final",
+  "lineage": "{\"amending_law_id\":\"Local Law 128 of 2024\",\"base_law_id\":\"Local Law 55 of 2024\",\"jurisdiction\":\"New York City\",\"lineage_id\":\"nyc-ll55-report-deadline\",\"revision_count\":4,\"status\":\"ASSESSED\",\"superseded_by\":\"\",\"target_field_id\":\"electric-vehicle-charging-report-deadline\"}",
+  "assessments": {
+    "a": "{\"amendment_effective_on_day\":true,\"amendment_enacted\":true,\"controlling_deadline\":\"2026-06-30\",\"evidence_state\":\"VERIFIED\",\"identity_match\":true,\"query_day\":\"2026-01-01\",\"resolution_status\":\"RESOLVED\",\"revision_id\":1,\"target_field_match\":true}",
+    "b": "{\"amendment_effective_on_day\":false,\"amendment_enacted\":true,\"controlling_deadline\":\"2026-06-30\",\"evidence_state\":\"VERIFIED\",\"identity_match\":true,\"query_day\":\"2025-12-20\",\"resolution_status\":\"NOT_YET_EFFECTIVE\",\"revision_id\":1,\"target_field_match\":true}",
+    "c": "",
+    "e": "",
+    "f": ""
+  },
+  "unknownOracle": false,
+  "checks": {
+    "historicalAUnchanged": true,
+    "historicalBUnchanged": true,
+    "failedDriftAbsent": true,
+    "failedPdfAbsent": true,
+    "unknownEmpty": true,
+    "unknownOracleFalse": true,
+    "counterexampleExcluded": true
+  },
+  "pass": true
+}

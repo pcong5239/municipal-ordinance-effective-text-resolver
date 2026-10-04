@@ -1,0 +1,17 @@
+{
+  "operationId": "moetr-5a68b42b-76c931e3-61997-actor4-d01-run1",
+  "project": "Municipal Ordinance Effective Text Resolver",
+  "revision": "MOETR-61997-5A68B42B-76C931E3",
+  "sourceSha256": "5A68B42B63044EDF9EB4A3960A36DE9E134C78AD3C255B84DB97B4871668A03D",
+  "network": "studio-dev",
+  "chainId": 61997,
+  "actor": "actor4",
+  "sender": "0x8170e7b22000527d9bab38dffa76b52103441b57",
+  "scenario": "D01 constructor and first fee profiling deploy",
+  "constructorArgs": [],
+  "feesArtifact": "bootstrap-deploy-fees.json",
+  "authorization": "Explicit task-local first profiling-deploy bootstrap fee exception",
+  "expected": "FINALIZED semantic success, EMPTY lineage, exact source parity, measured fee evidence",
+  "broadcastLimit": 1,
+  "preDeployVerdict": "PASS"
+}

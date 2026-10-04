@@ -1,0 +1,10 @@
+{
+  "assessment_id": "3333333333333333333333333333333333333333333333333333333333333333",
+  "revision_id": 1,
+  "query_day": "2026-01-01",
+  "candidate_deadline": "2027-12-21",
+  "expected": {
+    "resolution_status": "UNRESOLVED",
+    "reason": "The later enacted amendment explicitly replaces the relative-date formula with 2026-06-30."
+  }
+}

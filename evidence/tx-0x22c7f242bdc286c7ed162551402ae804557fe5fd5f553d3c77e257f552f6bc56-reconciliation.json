@@ -1,0 +1,92 @@
+{
+  "hash": "0x22c7f242bdc286c7ed162551402ae804557fe5fd5f553d3c77e257f552f6bc56",
+  "address": "0x1eBE1f41ff016b74af41b94F5E07B3B3b29A4DEF",
+  "network": "studio-dev",
+  "chainId": 61997,
+  "statusName": "FINALIZED",
+  "lifecycle": {
+    "state": "finalized",
+    "outcome": "accepted"
+  },
+  "semanticResult": "FINISHED_WITH_RETURN",
+  "fees": {
+    "deposit": "378516000010352",
+    "userValue": "0",
+    "distribution": {
+      "leaderTimeunitsAllocation": "100",
+      "validatorTimeunitsAllocation": "200",
+      "appealRounds": "0",
+      "executionBudgetPerRound": "94629000000000",
+      "totalMessageFees": "0",
+      "rotations": [
+        "3"
+      ],
+      "maxPriceGenPerTimeUnit": "2",
+      "storageFeeMaxGasPrice": "300000000",
+      "receiptFeeMaxGasPrice": "300000000"
+    },
+    "locked": {
+      "genPerTimeUnit": "1",
+      "storageUnitPrice": "250000000",
+      "receiptGasPrice": "250000000"
+    },
+    "consumed": {
+      "executionConsumed": "78633500000000",
+      "storageFeeUsed": "5500000000",
+      "messageFeesConsumed": "0",
+      "messageFeesBudgetTotal": "0",
+      "leaderTimeunitsUsed": "1",
+      "validatorTimeunitsUsed": "3",
+      "perRound": [
+        {
+          "round": 0,
+          "consensusRound": "Accepted",
+          "leaderTimeunits": "1",
+          "validatorTimeunits": "3",
+          "maxValidatorTimeunits": "1"
+        }
+      ]
+    }
+  },
+  "receiptStatus": "0x1",
+  "consensus": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 1,
+    "round_validators": [
+      "0xE52dDB85587585930b1E5f1Fe88fef21CcA49829",
+      "0xcF5Fd792Df0Dc9d297af75c82B4A0011e8FA1A4A",
+      "0xa0435f618c1F27B254998018AEa8Da5C77187852",
+      "0xE4E106086F167D75E2270fa5f3680f6ac598d179",
+      "0x8D32eb5D0207f7E230C45e7BF0D14B2ED5DA3028"
+    ],
+    "validator_votes_hash": [
+      "0x0d3ebb31b5b5816f5f3b6700aaf5847cb5e815b16b2dbc7001a160ca87aba78e",
+      "0xb54813bacf5150b30330cc7571e67bd1f9e98eff80990c83d063bb85998f993d",
+      "0xed9af97b98141cf513c32de49cfd38529745ff94e52830bf6ec3e9c62f1cf269",
+      "0x2e89cc73612a5dd480baac5e767dcc0a76ebae4308dbc7e581126940f2282782",
+      "0x63ee5ada5da741cb798cd8ae6ba28b4351f352317e9918bf8ace2aaa9532eccf"
+    ],
+    "validator_votes": [
+      3,
+      1,
+      3,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "IDLE",
+      "AGREE",
+      "IDLE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "sourceParity": true,
+  "sourceSha256": "5a68b42b63044edf9eb4a3960a36de9e134c78ad3c255b84db97b4871668a03d",
+  "lineage": "{\"amending_law_id\":\"Local Law 128 of 2024\",\"base_law_id\":\"Local Law 55 of 2024\",\"jurisdiction\":\"New York City\",\"lineage_id\":\"nyc-ll55-report-deadline\",\"revision_count\":2,\"status\":\"SEALED\",\"superseded_by\":\"\",\"target_field_id\":\"electric-vehicle-charging-report-deadline\"}"
+}

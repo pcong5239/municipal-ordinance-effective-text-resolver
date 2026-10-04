@@ -1,0 +1,9 @@
+{
+  "assessment_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "revision_id": 1,
+  "query_day": "2026-01-01",
+  "expected": {
+    "resolution_status": "RESOLVED",
+    "controlling_deadline": "2026-06-30"
+  }
+}

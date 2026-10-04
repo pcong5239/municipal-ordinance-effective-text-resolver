@@ -1,0 +1,11 @@
+{
+  "operationId": "moetr-5a68b42b-76c931e3-61997-actor4-x01seal-run1",
+  "hash": "0x22c7f242bdc286c7ed162551402ae804557fe5fd5f553d3c77e257f552f6bc56",
+  "status": "EXTERNALLY_RECONCILED",
+  "finality": "FINALIZED",
+  "semanticResult": "FINISHED_WITH_RETURN",
+  "postState": "SEALED revision_count2",
+  "broadcastCount": 1,
+  "chainId": 61997,
+  "scenario": "X01SEAL"
+}

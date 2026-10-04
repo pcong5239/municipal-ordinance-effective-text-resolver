@@ -1,0 +1,18 @@
+{
+  "retrieval_day": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=62FCF30F-3D9E-4148-B1ED-4469F3985796&ID=6558062&Options=ID%7CText%7C&Search=",
+      "raw_bytes": 1698829,
+      "canonical_bytes": 244389,
+      "sha256": "86fd72b5eb8ad04dc65f7edb18474de929b3fd5aa8d5591bbf41a8091db27605"
+    },
+    {
+      "url": "https://www.nyc.gov/assets/buildings/newsletters/DOB_BN_122225.html",
+      "raw_bytes": 52616,
+      "canonical_bytes": 15948,
+      "sha256": "9dfdb72d97c180af6a079bca2a0075f00f46ad85693dd06357c6d00d45234703"
+    }
+  ],
+  "manifest_hash": "d5f5cac004ee6066a4b8e850bce59253bb6ff23873a24ff100883e439ecaa604"
+}

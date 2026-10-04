@@ -1,0 +1,13 @@
+{
+  "operationId": "moetr-5a68b42b-76c931e3-61997-actor4-w06-run1",
+  "hash": "0x155d0e0b9aa5a63116d8cdc0a29bb46c448dfa8fc0dda73f37f68f1efa90f6ce",
+  "status": "EXTERNALLY_RECONCILED",
+  "finality": "FINALIZED",
+  "semanticResult": "FINISHED_WITH_RETURN",
+  "postState": "ASSESSED revision_count4",
+  "resolutionStatus": "RESOLVED",
+  "oracle": true,
+  "broadcastCount": 1,
+  "chainId": 61997,
+  "scenario": "W06"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "X01-source-drift",
+    "sender": "0x8170e7b22000527d9bab38dffa76b52103441b57",
+    "method": "assess_deadline",
+    "args": [
+      "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      2,
+      "2026-01-01"
+    ],
+    "expected": "sealed source manifest mismatch",
+    "network": "studio-dev",
+    "chainId": 61997,
+    "path": "official read-only write simulation; deterministic pre-submit rejection",
+    "broadcast": false,
+    "executionResult": "ERROR",
+    "message": "[EXTERNAL] sealed source manifest mismatch",
+    "pre": "{\"amending_law_id\":\"Local Law 128 of 2024\",\"base_law_id\":\"Local Law 55 of 2024\",\"jurisdiction\":\"New York City\",\"lineage_id\":\"nyc-ll55-report-deadline\",\"revision_count\":2,\"status\":\"SEALED\",\"superseded_by\":\"\",\"target_field_id\":\"electric-vehicle-charging-report-deadline\"}",
+    "post": "{\"amending_law_id\":\"Local Law 128 of 2024\",\"base_law_id\":\"Local Law 55 of 2024\",\"jurisdiction\":\"New York City\",\"lineage_id\":\"nyc-ll55-report-deadline\",\"revision_count\":2,\"status\":\"SEALED\",\"superseded_by\":\"\",\"target_field_id\":\"electric-vehicle-charging-report-deadline\"}",
+    "pass": true
+  },
+  {
+    "id": "N05-replay-revision",
+    "sender": "0x8170e7b22000527d9bab38dffa76b52103441b57",
+    "method": "assess_deadline",
+    "args": [
+      "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      2,
+      "2026-01-01"
+    ],
+    "expected": "ASSESSMENT_ID_CONFLICT",
+    "network": "studio-dev",
+    "chainId": 61997,
+    "path": "official read-only write simulation; deterministic pre-submit rejection",
+    "broadcast": false,
+    "executionResult": "ERROR",
+    "message": "ASSESSMENT_ID_CONFLICT",
+    "pre": "{\"amending_law_id\":\"Local Law 128 of 2024\",\"base_law_id\":\"Local Law 55 of 2024\",\"jurisdiction\":\"New York City\",\"lineage_id\":\"nyc-ll55-report-deadline\",\"revision_count\":2,\"status\":\"SEALED\",\"superseded_by\":\"\",\"target_field_id\":\"electric-vehicle-charging-report-deadline\"}",
+    "post": "{\"amending_law_id\":\"Local Law 128 of 2024\",\"base_law_id\":\"Local Law 55 of 2024\",\"jurisdiction\":\"New York City\",\"lineage_id\":\"nyc-ll55-report-deadline\",\"revision_count\":2,\"status\":\"SEALED\",\"superseded_by\":\"\",\"target_field_id\":\"electric-vehicle-charging-report-deadline\"}",
+    "pass": true
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "operationId": "moetr-5a68b42b-76c931e3-61997-actor4-x01pdf-run1",
+  "hash": "0xd5e01e9967cbfda3a30cc0c654e8c14074807fcfc805fa3da5e6faec257141ee",
+  "status": "EXTERNALLY_RECONCILED",
+  "finality": "FINALIZED",
+  "semanticResult": "FINISHED_WITH_RETURN",
+  "postState": "SEALED revision_count3",
+  "broadcastCount": 1,
+  "chainId": 61997,
+  "scenario": "X01PDF"
+}
