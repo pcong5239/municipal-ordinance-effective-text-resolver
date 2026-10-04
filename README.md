@@ -30,6 +30,21 @@ The contract stores append-only sealed revisions and assessment results. Correct
 
 The owner creates the lineage and seals revisions with two or three allowlisted official sources and a canonical text manifest. The assessor supplies revision, query day, and assessment ID. Leader and validators refetch the sources and compare law identity, enacted status, effective-day status, target field, controlling deadline, and evidence state before a result is recorded. External text is untrusted: changed manifests, redirects, unsupported bodies, and malformed extraction fail closed. Negative cases use read-only simulation with `broadcast: false`; they are not presented as transactions.
 
+## Local verification
+
+Use Python 3.13 and the exact versions in [requirements.txt](requirements.txt). The Direct Mode suite runs in process; its default localnet label does not submit a transaction. From a clean checkout in a compatible Linux/WSL environment:
+
+```sh
+python -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+pip check
+GENVM_VERSION=v0.6.0-rc5 genvm-lint check contracts/municipal_ordinance_effective_text_resolver.py
+python -m pytest -q --tb=short --disable-warnings
+```
+
+The recorded exact source/test revision passed 41 Direct Mode cases and the pinned GenVM linter. A later Windows-only rerun failed in the test harness before contract execution because its temporary file could not be unlinked (`WinError 32`); the lint command still passed. The on-chain evidence is recorded separately in the E2E matrix.
+
 ## Consensus engineering lessons
 
 - Finalized receipts need semantic-result and authoritative state readback.
